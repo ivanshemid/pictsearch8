@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "jwtSecret": "pelmenionfire",
+  "mongoUri": "mongodb+srv://ivann:12344321@cluster0.5y9bz7w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+}

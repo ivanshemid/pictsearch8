@@ -1,0 +1,38 @@
+{
+  "name": "projecta",
+  "version": "1.0.0",
+  "description": "mern1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Ivan Shemidko <gty654.com@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.3.1",
+    "mysql": "^2.18.1",
+    "port": "^0.8.1",
+    "pouchdb": "^8.0.1",
+    "react-router-dom": "^6.22.3",
+    "redirect": "^0.2.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^17.3.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
